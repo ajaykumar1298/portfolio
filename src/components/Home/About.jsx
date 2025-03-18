@@ -4,7 +4,7 @@ import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn, FaShopify } from "react-icons/fa";
-import { SiGithub, SiGmail, SiLeetcode, SiVercel, SiVisualstudiocode } from "react-icons/si";
+import { SiGithub, SiGmail, SiHtml5, SiLeetcode, SiNetlify, SiVercel, SiVisualstudiocode } from "react-icons/si";
 import Techstack from "../Skillset/Techstack";
 import { DiJavascript1, DiReact } from "react-icons/di";
 import ProjectCard from "../Projects/ProjectCard";
@@ -70,6 +70,9 @@ const About = () => {
                     <Col xs={4} md={2} className="tech-icons">
                         <FaShopify />
                     </Col>
+                        <Col xs={4} md={2} className="tech-icons">
+                                    <SiHtml5 />
+                                </Col>
         
                     
                 </Row>
@@ -81,11 +84,14 @@ const About = () => {
                 <SiVisualstudiocode />
               </Col>
               <Col xs={4} md={2} className="tech-icons">
+                <SiGithub/>
+              </Col>
+              <Col xs={4} md={2} className="tech-icons">
                 <SiVercel />
               </Col>
               <Col xs={4} md={2} className="tech-icons">
-                <SiGithub/>
-              </Col>
+                      <SiNetlify/>
+                    </Col>
             </Row>
                     </Col>
                 </Row>
