@@ -15,7 +15,7 @@ import weather from "../assets/projects/weather.png";
 import TicTac from "../assets/projects//tictac.png";
 import passGen from "../assets/projects/passGen.png"
 import mathPower from "../assets/projects/mathPower.png"
-import drumkit from "../assets/projects/drumkit.png"
+import drumkit1 from "../assets/projects/drumkit1.png"
 
 const Projects = () => {
     return (
@@ -83,7 +83,7 @@ const Projects = () => {
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={drumkit}
+                            imgPath={drumkit1}
                             isBlog={false}
                             title="Drum Kit"
                             description="The Drum Kit is a web-based application that allows users to play a digital drum set using their keyboard or mouse. This project provides an interactive and engaging way for users to experience drumming without needing a physical drum set."
