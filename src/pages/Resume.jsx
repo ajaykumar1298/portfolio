@@ -11,8 +11,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://raw.githubusercontent.com/ajaykumar1298/portfolio/e867b825eca1f196f43074b8a1b7da735fa8e4e2/src/assets/ajay.pdf
-    `;
+const resumeLink = `https://raw.githubusercontent.com/ajaykumar1298/portfolio/master/src/assets/ajay.pdf`;
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
