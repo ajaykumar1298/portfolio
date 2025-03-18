@@ -10,9 +10,9 @@ import kickstart from "../assets/projects/kickstart.png";
 import donation from "../assets/projects/donation.png";
 import currency from "../assets/projects/currency.jpeg";
 import todo from "../assets/projects/Todo.png";
+import TicTac from "../assets/projects//tictac.png";
 import Notes from "../assets/projects/notes.png";
 import weather from "../assets/projects/weather.png";
-import TicTac from "../assets/projects//tictac.png";
 import passGen from "../assets/projects/passGen.png"
 import mathPower from "../assets/projects/mathPower.png"
 import drumkit1 from "../assets/projects/drumkit1.png"
