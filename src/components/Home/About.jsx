@@ -27,6 +27,8 @@ const About = () => {
                             <br />
                             <br />
                             Graduate From Delhi University ,Delhi in 2019
+                            <br></br>
+                            Post Graduate From Career Point University ,kota in 2022
                             <br />
                             <br />
                             As a<b className="yellow"> Frontend - web </b>developer, I enjoy tackling new challenges and continuously expanding my skillset.
@@ -108,7 +110,7 @@ const About = () => {
                             imgPath={currency}
                             isBlog={false}
                             title="Currency-Convertor"
-                            description="A simple and efficient **Currency Converter** app built with **React.js** that allows users to convert currencies in real-time. It fetches the latest exchange rates from an API and provides a seamless user experience with a clean and responsive interface. 🚀💰"
+                            description="An intuitive and lightweight Currency Converter app developed with React.js, designed for real-time currency conversion. It seamlessly fetches up-to-date exchange rates from an API, ensuring accurate calculations."
                             ghLink="https://github.com/ajaykumar1298/currency-convertor-react"
                             demoLink="https://global-currency-convertor.vercel.app/"
                         />
@@ -119,7 +121,7 @@ const About = () => {
                             imgPath={todo}
                             isBlog={false}
                             title="Todo - list"
-                            description="A sleek and intuitive **Todo List** app built with **React.js** to help you organize tasks efficiently. It allows users to add, edit, delete, and mark tasks as complete, ensuring better productivity with a smooth and responsive UI. ✅📝"
+                            description="A sleek and efficient Todo List app built with React.js for seamless task management. Easily add, edit, delete, and complete tasks with a smooth, responsive UI. Stay organized and boost productivity effortlessly."
                             ghLink="https://github.com/ajaykumar1298/todo-list-react"
                             demoLink="https://global-todo-list.vercel.app/"
                         />
@@ -130,7 +132,7 @@ const About = () => {
                             imgPath={TicTac}
                             isBlog={false}
                             title="Tic tac Toe"
-                            description="A classic **Tic-Tac-Toe** game built with **HTML, CSS, and JavaScript**, enhanced with **Firebase** for real-time multiplayer gameplay. Play with friends online, track moves instantly, and enjoy a smooth, interactive gaming experience. 🎮❌⭕"
+                            description="A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript, enjoy a smooth, interactive experience. With a responsive design and seamless gameplay."
                             ghLink="https://github.com/ajaykumar1298/Tic-Tac-Toe/"
                             demoLink="https://ajaykumar1298.github.io/Tic-Tac-Toe/"
                         />
