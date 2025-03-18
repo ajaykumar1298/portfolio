@@ -26,7 +26,7 @@ const About = () => {
                             and I'm from <span className="yellow">Delhi</span>
                             <br />
                             <br />
-                            Graduate From Delhi University ,Delhi in 2019
+                            Graduate From Delhi University ,Delhi in 2018
                             <br></br>
                             Post Graduate From Career Point University ,kota in 2022
                             <br />
