@@ -4,7 +4,7 @@ import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn, FaShopify } from "react-icons/fa";
-import { SiGithub, SiGmail, SiHtml5, SiLeetcode, SiNetlify, SiVercel, SiVisualstudiocode } from "react-icons/si";
+import { SiGithub, SiGmail, SiHtml5, SiLeetcode, SiNetlify, SiTypescript, SiVercel, SiVisualstudiocode } from "react-icons/si";
 import Techstack from "../Skillset/Techstack";
 import { DiJavascript1, DiReact } from "react-icons/di";
 import ProjectCard from "../Projects/ProjectCard";
@@ -66,15 +66,16 @@ const About = () => {
                         <DiJavascript1/>
                     </Col>
                     <Col xs={4} md={2} className="tech-icons">
+                        <SiTypescript />
+                    </Col>
+                    <Col xs={4} md={2} className="tech-icons">
                         <DiReact />
                     </Col>
         
                     <Col xs={4} md={2} className="tech-icons">
                         <FaShopify />
                     </Col>
-                        <Col xs={4} md={2} className="tech-icons">
-                                    <SiHtml5 />
-                                </Col>
+                       
         
                     
                 </Row>
