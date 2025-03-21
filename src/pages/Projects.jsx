@@ -27,6 +27,16 @@ const Projects = () => {
                 </h1>
                 <p style={{ color: "white" }}>Here are a few projects I've worked on recently.</p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={weather}
+                            isBlog={false}
+                            title="Weather App"
+                            description="Weather App – This is a React-based weather application that displays the current location's weather and allows users to search for any city's weather. It provides real-time temperature, humidity, and wind speed details by fetching data from a weather API. With a modern UI and responsive design, the app is fast and user-friendly."
+                            ghLink="https://github.com/ajaykumar1298/weather-react"
+                            demoLink="https://global-app-react-weather.vercel.app/"
+                        />
+                    </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={currency}
@@ -71,7 +81,7 @@ const Projects = () => {
                             demoLink="https://ajay1209-password-generator.vercel.app/"
                         />
                     </Col>
-                    <Col md={4} className="project-card">
+                    {/* <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={mathPower}
                             isBlog={false}
@@ -80,7 +90,7 @@ const Projects = () => {
                             ghLink="https://github.com/ajaykumar1298/Math-Power/"
                             demoLink="https://ajaykumar1298.github.io/Math-Power/"
                         />
-                    </Col>
+                    </Col> */}
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={drumkit1}
